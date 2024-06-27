@@ -26,4 +26,4 @@ This project uses the following language versions:
 
 ## How to Cite
 If you use this project in your research or work, please cite it as follows:
-Zhang, Shuyi. (2024). MACSSThesisShuyizhang. GitHub. https://github.com/[username]/[repository-name]
+Zhang, Shuyi. (2024). MACSSThesisShuyizhang. GitHub. https://github.com/shuyizhang-macss/MACSSThesisShuyizhang
