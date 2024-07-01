@@ -15,13 +15,8 @@ This study investigates the impact of price reduction on consumers' purchasing i
 This project uses the following language versions:
 ### Python
 - Version: 3.11.5
-- Build: main, Sep 11 2023, 08:31:25
-- Compiler: Clang 14.0.6
 ### R
-- Version: 4.3.2 (2023-10-31)
-- Nickname: Eye Holes
-- Platform: aarch64-apple-darwin20
-- Architecture: aarch64
+- Version: 4.3.2
 
 
 ## How to Cite
