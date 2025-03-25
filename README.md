@@ -27,9 +27,6 @@ To install the required dependencies, you can use the following commands:
 # Create a virtual environment (optional but recommended)
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
-
-# Install required packages
-pip install -r requirements.txt
 ```
 
 Alternatively, you can install packages manually:
@@ -56,12 +53,6 @@ branca==0.6.0
 geojson==3.0.1
 Pillow==9.4.0
 selenium==4.8.3
-```
-
-To install specific versions, use:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ### Usage Guide
