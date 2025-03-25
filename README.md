@@ -101,7 +101,7 @@ import os
 - Processed Data:
   - 'Merged_AirDNA.csv': Cleaned and merged dataset.
   - 'PCA_Cluster_Analysis.csv': Data prepared for clustering analysis.
-- Note: All data can be downloaded at https://www.dropbox.com/scl/fo/l5jx5isl9l1hnvtui4n9p/AJXGynCnGlezTiLy-aYw
+- Note: All data can be downloaded at https://www.dropbox.com/scl/fo/l5jx5isl9l1hnvtui4n9p/AJXGynCnGlezTiLy-aYw. 'SampleData.csv' gives a rough idea of what 'Merged_AirDNA.csv' looks like.
 
 #### 3. Data Analysis
 - Scripts:
