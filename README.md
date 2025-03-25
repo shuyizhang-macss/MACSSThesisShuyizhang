@@ -3,12 +3,6 @@
 ## Abstract
 This study investigates the heterogeneous effects of price fluctuations and crime happened nearby on listing performance in the short-term rental industry. Using a comprehensive dataset of Airbnb listings in Chicago from 2014 to 2024, the study examined how price surges and drops influence occupancy rates, Average Daily Rate (ADR), and revenue across different Airbnb property segments. Employing a combination of spatial, temporal, and machine learning methodologies, the study identified four distinct property clusters with varying sensitivity to property characteristics and review ratings. The findings challenge conventional pricing wisdom by revealing that price surges consistently increase occupancy rates across all Airbnb listing clusters, with the most substantial positive effects observed in revenue performance. Conversely, price drops generally result in revenue losses, highlighting asymmetric market responses to price adjustments. Additionally, the research find that neighborhood safety characteristics moderate these effects, with crime incidents having heterogeneous impacts across property segments. This research contributes to revenue management theory by demonstrating that strategic price positioning can leverage quality signaling effects, where consumers interpret higher prices as indicators of superior value in certain market segments. The findings provide practical insights for hosts and platform operators seeking to optimize pricing strategies in increasingly complex short-term rental markets. 
 
-
-# Heterogeneous Effects of Price Fluctuation on the Structure of the Short-term Rental Industry
-### —— DIGS 30004 Final Project by Shuyi Zhang
-
-https://github.com/shuyizhang-macss/DIGS30004FinalProject
-
 ## Project Overview
 - This project investigates the heterogeneous effects of price fluctuations on the structure of the shared homestay market,  focusing on Airbnb platform.
 - Previous research showed that review score, location, price, amenities, host characteristics, etc. can all influence the revenue of Airbnb listings (Kirkos, 2022). Occupancy rates and ADR (Average Daily Rate) are also used as performance metrics for Airbnb listings besides revenue, as they can be control for several factors that impact revenue.
