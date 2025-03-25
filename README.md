@@ -23,25 +23,25 @@ fluctuation on local demand side consumers’ behavior, ADR, occupancy rate and 
 ### Installation
 To install the required dependencies, you can use the following commands:
 
-'''bash
+```bash
 # Create a virtual environment (optional but recommended)
 python -m venv env
-source env/bin/activate  # On Windows use 'env\Scripts\activate'
+source env/bin/activate  # On Windows use `env\Scripts\activate`
 
 # Install required packages
 pip install -r requirements.txt
-'''
+```
 
 Alternatively, you can install packages manually:
 
-'''bash
+```bash
 pip install pandas numpy matplotlib seaborn pyfixest econml sklearn plotly folium dash branca geojson pillow selenium
-'''
+```
 
 ### Package Versions
 For reproducibility, it is recommended to use the following package versions:
 
-'''txt
+```txt
 pandas==1.5.3
 numpy==1.24.2
 matplotlib==3.7.1
@@ -56,20 +56,20 @@ branca==0.6.0
 geojson==3.0.1
 Pillow==9.4.0
 selenium==4.8.3
-'''
+```
 
 To install specific versions, use:
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ### Usage Guide
 
 #### Importing Libraries
 To ensure successful installation, import the libraries in a Python script or Jupyter Notebook:
 
-'''python
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -85,7 +85,7 @@ import geojson
 from PIL import Image
 from selenium import webdriver
 import os
-'''
+```
 
 ## Repository Structure
 #### 1. Data Processing
@@ -110,8 +110,6 @@ import os
 
 #### 4. Documentation
 - README.md: Provides an overview of the repository, including data descriptions, processing steps, and analysis workflow.
-
-
 
 ## How to Cite
 If you use this project in your research or work, please cite it as follows:
