@@ -1,10 +1,12 @@
 # MACSSThesis_shuyizhang: Heterogeneous Effects of Price Fluctuation and Crime on the Structure of the Short-term Rental Industry
 
 ## Abstract
-This study investigates the heterogeneous effects of price fluctuations and crime happened nearby on listing performance in the short-term rental industry. Using a comprehensive dataset of Airbnb listings in Chicago from 2014 to 2024, the study examined how price surges and drops influence occupancy rates, Average Daily Rate (ADR), and revenue across different Airbnb property segments. Employing a combination of spatial, temporal, and machine learning methodologies, the study identified four distinct property clusters with varying sensitivity to property characteristics and review ratings. The findings challenge conventional pricing wisdom by revealing that price surges consistently increase occupancy rates across all Airbnb listing clusters, with the most substantial positive effects observed in revenue performance. Conversely, price drops generally result in revenue losses, highlighting asymmetric market responses to price adjustments. Additionally, the research find that neighborhood safety characteristics moderate these effects, with crime incidents having heterogeneous impacts across property segments. This research contributes to revenue management theory by demonstrating that strategic price positioning can leverage quality signaling effects, where consumers interpret higher prices as indicators of superior value in certain market segments. The findings provide practical insights for hosts and platform operators seeking to optimize pricing strategies in increasingly complex short-term rental markets. 
+This study investigates the heterogeneous effects of price fluctuations and crime happening nearby on listing performance in the short-term rental industry. Using a comprehensive dataset of Airbnb listings in Chicago from 2014 to 2024, the study examined how price surges and drops influence occupancy rates, Average Daily Rate (ADR), and revenue across different Airbnb property segments. Employing a combination of spatial analysis, tempo- ral analysis, causal forest, and machine learning methodologies, the study identified four distinct property clusters with varying sensitivity to property characteristics and review rat- ings. The findings reveal a strong association between price surges and increased occupancy rates. While this counterintuitive result may reflect a signaling mechanism, we caution that causality cannot be conclusively established. It is also possible that elevated demand may precede price changes. Hosts raise prices in response to unobserved shifts in demand — suggesting that these outcomes reflect correlated dynamics rather than strictly causal rela- tionships. Price increases may operate as signals of quality or scarcity that elevate perceived value. Conversely, price drops generally result in revenue losses, highlighting asymmetric market responses to price adjustments. Additionally, the research find that neighborhood safety characteristics moderate these effects, with crime incidents having heterogeneous impacts across property segments. This research contributes to revenue management the- ory by demonstrating that strategic price positioning can leverage quality signaling effects, where consumers interpret higher prices as indicators of superior value in certain market segments. The findings provide practical insights for hosts and platform operators seeking to optimize pricing strategies in increasingly complex short-term rental markets.
+
+Keywords: Short-term Rental Market; Airbnb; Price Voliaty; Dynamic Pricing; Pricing Strategy; Revenue Management; Price Surge; Price Drop; Consumer Behavior; Listing Performance; Occupancy Rate; Revenue; Average Daily Rate
 
 ## Project Overview
-- This project investigates the heterogeneous effects of price fluctuations on the structure of the shared homestay market,  focusing on Airbnb platform.
+- This project investigates the heterogeneous effects of price fluctuations on the structure of the shared homestay market, focusing on Airbnb platform.
 - Previous research showed that review score, location, price, amenities, host characteristics, etc. can all influence the revenue of Airbnb listings (Kirkos, 2022). Occupancy rates and ADR (Average Daily Rate) are also used as performance metrics for Airbnb listings besides revenue, as they can be control for several factors that impact revenue.
 Note: The average daily rate (ADR) measures the average rental revenue earned for an occupied room per day. The operating performance of a hotel or other lodging business can be determined by using the ADR. Multiplying the ADR by the occupancy rate equals the revenue per available room.
 - The project choose Airbnb as the platform. Data from AirDNA, a leading provider of short-term rental market insights, and web-scrapped Airbnb data were utilized for this analysis. AirDNA is a prominent supplier of data on short-term rentals, with a focus on providing market insights for Airbnb and Vrbo. It provides valuable information for hosts, investors, and academics in the vacation rental business. The coverage encompasses data from more than 10 million homes throughout 120,000 markets globally. Historical data is generally accessible starting from 2014, but the availability may differ depending on the market (AirDNA, 2024). 
@@ -19,64 +21,6 @@ Note: The average daily rate (ADR) measures the average rental revenue earned fo
 fluctuation on local demand side consumers’ behavior, ADR, occupancy rate and revenue
 - Step 5: Applied Causal Machine Learning (Casual Forest) and linear regression to decompose the Continuous Treatment Effect of exogenous price changes over physical and review-based housing characteristics.
 
-## Required Libraries
-### Installation
-To install the required dependencies, you can use the following commands:
-
-```bash
-# Create a virtual environment (optional but recommended)
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-```
-
-Alternatively, you can install packages manually:
-
-```bash
-pip install pandas numpy matplotlib seaborn pyfixest econml sklearn plotly folium dash branca geojson pillow selenium
-```
-
-### Package Versions
-For reproducibility, it is recommended to use the following package versions:
-
-```txt
-pandas==1.5.3
-numpy==1.24.2
-matplotlib==3.7.1
-seaborn==0.12.2
-pyfixest==0.2.6
-econml==0.14.0
-scikit-learn==1.2.2
-plotly==5.14.1
-folium==0.14.0
-dash==2.10.2
-branca==0.6.0
-geojson==3.0.1
-Pillow==9.4.0
-selenium==4.8.3
-```
-
-### Usage Guide
-
-#### Importing Libraries
-To ensure successful installation, import the libraries in a Python script or Jupyter Notebook:
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pyfixest
-from econml.dml import DML
-from sklearn.model_selection import train_test_split
-import plotly.express as px
-import folium
-import dash
-import branca
-import geojson
-from PIL import Image
-from selenium import webdriver
-import os
-```
 
 ## Repository Structure
 #### 1. Data Processing
@@ -97,7 +41,7 @@ import os
 #### 3. Data Analysis
 - Scripts:
   - 'airbnb_data_processing.ipynb': Performs data preprocessing on AirDNA data.
-  - 'Airbnb_Analysis.ipynb': Performs statistical analysis and modeling on Airbnb data.
+  - 'Airbnb_Analysis_V2.ipynb': Performs statistical analysis and modeling on Airbnb data.
 
 #### 4. Documentation
 - README.md: Provides an overview of the repository, including data descriptions, processing steps, and analysis workflow.
